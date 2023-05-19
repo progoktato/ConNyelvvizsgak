@@ -103,6 +103,8 @@
                 nyelvek.Select(x => $"{x.Nev};{x.EddigiOsszesViszgakSzama};" +
                 $"{Math.Round(x.SikeressegiAranyTeljesIdoszakban, 2)}%")
                 );
+
+            Console.WriteLine("Vége!");
         }
     }
 }
